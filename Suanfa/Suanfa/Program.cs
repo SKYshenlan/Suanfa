@@ -9,8 +9,8 @@ namespace Suanfa
     internal class Program
     {
         public class ListNode {
-             public int val;
-             public ListNode next;
+            public int val;
+            public ListNode next;
             public ListNode(int val=0, ListNode next=null) {
                 this.val = val;
                 this.next = next;
@@ -69,6 +69,52 @@ namespace Suanfa
             }
             return chars.Count == 0;
         }
+        //排序链表
+        public ListNode SortList(ListNode head)
+        {
+            if(head == null || head.next == null) return head;
+
+            //快慢针
+            ListNode slow = head;
+            ListNode flow = head.next;
+            //拆分
+            while(flow != null && flow.next != null)
+            {
+                slow = slow.next;
+                flow = flow.next.next;
+            }
+            ListNode list = slow.next;
+            slow.next = null;
+            //排序
+
+            ListNode left = SortList(head);
+            ListNode right = SortList(list);
+            //合并
+            return Merag(left, right);
+        }
+
+        private ListNode Merag(ListNode arr1, ListNode arr2)
+        {
+            ListNode index = new ListNode(0);
+            ListNode count = index;
+            while(arr1 != null && arr2 != null)
+            {
+                if (arr1.val <= arr2.val)
+                {
+                    count.next = arr1;
+                    arr1 = arr1.next;
+                }
+                else
+                {
+                    count.next = arr2;
+                    arr2 = arr2.next;
+                }
+                count=count.next;
+            }
+            count.next = (arr1 != null) ? arr1 : arr2;
+            return index.next;
+        }
+
         static void Main(string[] args)
         {
            bool flag = IsValid("{()}");
