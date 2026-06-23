@@ -1,0 +1,8 @@
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\bin\Debug\Suanfa.exe.config
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\bin\Debug\Suanfa.exe
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\bin\Debug\Suanfa.pdb
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\obj\Debug\Suanfa.csproj.AssemblyReference.cache
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\obj\Debug\Suanfa.csproj.CoreCompileInputs.cache
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\obj\Debug\Suanfa.exe
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\obj\Debug\Suanfa.pdb
+D:\学习软件\创建\UGit\suanfa\Suanfa\Suanfa\obj\Debug\Suanfa.exe.config
