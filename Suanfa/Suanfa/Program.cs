@@ -115,10 +115,29 @@ namespace Suanfa
             count.next = (arr1 != null) ? arr1 : arr2;
             return index.next;
         }
+        //
+        public static int[] TwoSum(int[] nums, int target)
+        {
+            int[] arr = nums;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] + arr[j] == target)
+                    {
+                        int[] index = { i, j };
+                        return index;
+                    }
+                }
+            }
+            return null;
+        }
         static void Main(string[] args)
         {
-           bool flag = IsValid("{()}");
-            Console.WriteLine(flag);
+            int[] arr = {  3, 2, 4 };
+            bool flag = IsValid("{()}");
+            int[] newarr = TwoSum(arr, 6);
+            Console.WriteLine();
         }
     }
 }
