@@ -36,6 +36,7 @@ namespace Suanfa
             }
             return arr;
         }
+        //有效括号
         public static bool IsValid(string s)
         {
             // 先判断s
@@ -114,7 +115,6 @@ namespace Suanfa
             count.next = (arr1 != null) ? arr1 : arr2;
             return index.next;
         }
-
         static void Main(string[] args)
         {
            bool flag = IsValid("{()}");
