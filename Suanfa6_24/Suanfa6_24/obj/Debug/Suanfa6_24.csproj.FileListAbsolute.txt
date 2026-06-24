@@ -1,0 +1,7 @@
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\bin\Debug\Suanfa6_24.exe.config
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\bin\Debug\Suanfa6_24.exe
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\bin\Debug\Suanfa6_24.pdb
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\obj\Debug\Suanfa6_24.csproj.AssemblyReference.cache
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\obj\Debug\Suanfa6_24.csproj.CoreCompileInputs.cache
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\obj\Debug\Suanfa6_24.exe
+D:\学习软件\创建\GitHub\Suanfa\Suanfa6_24\Suanfa6_24\obj\Debug\Suanfa6_24.pdb
