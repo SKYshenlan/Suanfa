@@ -1,0 +1,7 @@
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\bin\Debug\Sunafa_6_25.exe.config
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\bin\Debug\Sunafa_6_25.exe
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\bin\Debug\Sunafa_6_25.pdb
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\obj\Debug\Sunafa_6_25.csproj.AssemblyReference.cache
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\obj\Debug\Sunafa_6_25.csproj.CoreCompileInputs.cache
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\obj\Debug\Sunafa_6_25.exe
+D:\学习软件\创建\GitHub\Suanfa\Sunafa_6_25\Sunafa_6_25\obj\Debug\Sunafa_6_25.pdb
