@@ -1,0 +1,5 @@
+Object 在New一个新的Object内存会生成16字节
+List<int> arr = new List<int>(); 这个也会造成16的字节而 List<int> arr = new List<int>(4);它会造成32字节，int类型4字节，
+GC的触发是达到阈值就自动触发
+int a = 1;
+Object b = a;一共占20字节（8(虚表指针)）+8 (同步快索引)）+4）
